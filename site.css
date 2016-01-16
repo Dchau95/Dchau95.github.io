@@ -1,0 +1,157 @@
+root { 
+    display: block;
+}
+
+.centered{
+    text-align:center;
+}
+
+.indent{
+    text-indent: 10%;
+}
+
+#floater2
+{
+    position: relative; 
+    float: left;
+    height: 29%;	
+    margin-bottom: -120px;
+    width: 1px;
+    background: transparent;
+}
+
+#floater {
+    position: relative; 
+    float: left;
+    height: 50%;	
+    margin-bottom: -120px;
+    width: 1px;
+    background: transparent;
+}
+
+div#loginbox
+{
+    background: rgba(10, 10, 10, 0.7);
+    width: 100%;
+    height: auto;
+    clear: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#box
+{
+    background: rgba(10, 10, 10, 0.7);
+    width: 100%;
+    height: auto;
+    clear: left;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+div#contactbox
+{
+    background: rgba(10, 10, 10, 0.7);
+    width:50%;
+    height: 170px;
+    position: relative;
+    clear: left;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#name {
+    color: #FFF;
+    background: transparent;
+    width: 220px;
+    height: 30px;
+    margin: 5px auto;
+    padding: 2px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#email {
+    color: #FFF;
+    background: transparent;
+    width: 220px;
+    height: 30px;
+    margin: 5px auto;
+    padding: 2px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#quotes {
+    color: #FFF;
+    background: transparent;
+    width: 220px;
+    height: 30px;
+    margin: 5px auto;
+    padding: 2px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#submit {
+    height: 30px;
+    width: 160px;
+    margin: 10px auto;
+    padding: 2px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    background: #5bc9bb;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+#submit:hover {
+    outline: none;
+    color: #0083c3;
+    cursor: pointer;
+    background: #FFF;
+}
+
+p{
+    font-size: 135%;
+}
+
+.sansSerif{
+    font-family: sans-serif;
+    color: green;
+}
+
+.andaleMono{
+    font-family: 'Andale Mono', AndaleMono, monospace;
+    color: white;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 10px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
